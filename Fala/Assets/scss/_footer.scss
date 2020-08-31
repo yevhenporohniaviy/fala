@@ -1,0 +1,125 @@
+#footer {
+  background-color: #616a7d;
+
+  .sitemap {
+    color: #ffffff;
+    font-family: ubuntu-bold;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25.01px;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  .sitemap-list {
+    .list {
+      padding-left: 15px;
+      list-style: none;
+
+      .title-section {
+        a {
+          text-decoration: none;
+          color: #ffffff;
+          font-family: ubuntu-bold;
+          font-size: 13px;
+          font-weight: 700;
+          line-height: 15.83px;
+          &:hover{
+            color: #bca7d0;
+          }
+        }
+
+        &:before {
+          content: "";
+          border-color: transparent #87bae5;
+          border-style: solid;
+          border-width: 0.35em 0 0.35em 0.45em;
+          display: block;
+          height: 0;
+          width: 0;
+          left: -1em;
+          top: 0.8em;
+          position: relative;
+        }
+      }
+      .child {
+        padding-left: 10px;
+        //list-style
+        list-style: none;
+        li {
+          font-size: 10px;
+          line-height: 12.83px;
+
+          a {
+            text-decoration: none;
+            color: #ffffff;
+            font-family: ubuntu-regular;
+            font-size: 10px;
+            font-weight: 700;
+            line-height: 12.83px;
+            &:hover{
+              color: #bca7d0;
+            }
+          }
+
+          &:before {
+            content: "";
+            border-color: transparent #ffffff;
+            border-style: solid;
+            border-width: 0.35em 0 0.35em 0.45em;
+            display: block;
+            height: 0;
+            width: 0;
+            left: -1em;
+            top: 1em;
+            position: relative;
+          }
+        }
+      }
+    }
+  }
+  .contact-home-info{
+    .info{
+      a{
+        text-decoration: none;
+        color: #ffffff;
+        font-family: ubuntu-regular;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 13.75px;
+
+      }
+      color: #ffffff;
+      font-family: ubuntu-regular;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 13.75px;
+      margin-bottom: 30px;
+      .fas{
+        margin-right:15px;
+        color: #87bae5;
+        font-size: 15px;
+        line-height: 20.87px;
+      }
+    }
+  }
+
+  .sitemap-footer {
+    align-items: flex-end;
+    margin: 30px 0;
+
+
+
+    .copyright {
+      color: #a5a5a5;
+      font-family: ubuntu-regular;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 25.11px;
+      margin: 0 90px;
+      @media(max-width:768px){
+        margin: 0;
+      }
+    }
+  }
+
+}

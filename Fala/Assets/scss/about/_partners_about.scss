@@ -1,0 +1,55 @@
+#widget-partners{
+  background-color: #f5f4f4;
+  .title {
+    color: #7d8490;
+    font-family: ubuntu-bold;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 20.93px;
+    margin: 60px 0 35px 0;
+    @media(max-width: 768px) {
+      font-size: 24px;
+    }
+  }
+
+  .partners-content {
+    margin-bottom: 20px;
+
+    .partner {
+      text-decoration: none;
+      margin-bottom: 30px;
+      padding: 45px;
+      width: 100%;
+      border-radius: 10px;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      img{
+        height: 128px;
+        max-height: 128px;
+      }
+      @media(max-width: 768px){
+        padding:20px 10px;
+      }
+      .partners-title{
+        text-align: center;
+
+        color: #616a7d;
+        font-family: ubuntu-bold;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 20.9px;
+        margin-bottom: 8px;
+
+      }
+      .partners-type{
+        color: #bca7d0;
+        font-family: ubuntu-italic;
+        font-size: 17px;
+        font-weight: 400;
+      }
+    }
+  }
+}

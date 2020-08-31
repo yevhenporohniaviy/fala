@@ -1,0 +1,98 @@
+#widget-faqs-list{
+  margin: 70px 0 ;
+  #accordionFAQ {
+    .card {
+      background: none;
+      border: none;
+      margin-bottom: 5px;
+      .card-header {
+        background: none;
+        padding: 0;
+        margin-bottom: 0px;
+        border-radius: 5px 5px 0 0;
+
+      }
+      .card-body {
+        padding: 35px;
+        color: #7d8490;
+        font-family: ubuntu-regular;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 22.92px;
+      }
+    }
+
+    .btn-link {
+
+      border: 2px solid #f5f4f4;
+      background-color: #bca7d0;
+      .title{
+        color: #ffffff;
+        font-family: ubuntu-bold;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 20.9px;
+        padding: 25px;
+      }
+      &.collapsed{
+        border: 2px solid #f5f4f4;
+        background-color: #f5f4f4;
+        .title{
+          color: #7d8490;
+          font-family: ubuntu-regular;
+          font-size: 19px;
+          font-weight: 400;
+          line-height: 20.9px;
+        }
+      }
+
+      text-decoration: none;
+      border-radius: 0;
+
+      .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        &:after {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+
+  #accordionFAQ .btn-link {
+
+    &[aria-expanded="true"] .icon:after {
+      content: '-';
+      width: 15px;
+      height: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+      font-family: ubuntu-bold;
+      font-size: 29px;
+      font-weight: 700;
+      line-height: 25.08px;
+    }
+
+    &[aria-expanded="false"] .icon:after {
+      content: '+';
+      width: 10px;
+      height: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #7d8490;
+      font-family: ubuntu-bold;
+      font-size: 29px;
+      font-weight: 700;
+      line-height: 25.08px;
+    }
+  }
+
+}

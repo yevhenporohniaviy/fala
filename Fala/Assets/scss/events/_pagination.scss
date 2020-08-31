@@ -1,0 +1,34 @@
+.pagination-list {
+  .page-item {
+
+
+    margin: 2px;
+    .page-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 30px;
+      width: 30px;
+      color: #7d8490;
+      font-family: ubuntu-regular;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 25.08px;
+      border-radius: 15px;
+      background-color: #f5f4f4;
+      border: none;
+
+    }
+    &.active {
+      .page-link {
+        background-color: #86b9e4;
+        color: #ffffff;
+        font-family: ubuntu-bold;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 25.08px;
+      }
+
+    }
+  }
+}

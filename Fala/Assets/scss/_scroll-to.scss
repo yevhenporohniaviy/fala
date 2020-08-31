@@ -1,0 +1,131 @@
+html{
+  scroll-behavior: smooth;
+}
+
+#widget-scroll-to{
+  background-color: #f5f4f4;
+
+  &.affix{
+    position: fixed;
+    top: 100px;
+    right: 0;
+    left: 0;
+    z-index: 98;
+    .scroll-to-box{
+      .logo{
+        img{
+          // scroll to bottom display logo
+          //display: flex;
+          //justify-content: center;
+          //align-items: center;
+        }
+      }
+    }
+  }
+
+  .scroll-to-box{
+    @media(max-width: 767px){
+      flex-direction: column;
+    }
+    .logo{
+      margin: 5px 0;
+      height: 80px;
+      width: 70px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img{
+        height: 60px;
+        display: none;
+      }
+      @media(max-width: 767px){
+        display: none;
+      }
+    }
+    .list-to{
+      @media(max-width: 767px){
+        width: 100%;
+
+        max-height: 0;
+        transition: max-height 0.5s ease-out;
+        overflow: hidden;
+      }
+      ul{
+        display: flex;
+
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        @media(max-width: 767px){
+          flex-direction: column;
+        }
+        li{
+          cursor: pointer;
+          margin: 0 15px;
+          @media(max-width: 767px){
+            margin-bottom: 15px;
+          }
+          a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: #616a7d;
+            font-family: ubuntu-regular;
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 20.93px;
+            &.active{
+              padding:10px 20px;
+              color: #ffffff;
+              font-family: ubuntu-bold;
+              font-weight: 700;
+              border-radius: 19px;
+              background-image: linear-gradient(-58deg, #87bae5 0%, #bca7d0 100%);
+            }
+          }
+        }
+      }
+      &.open{
+        max-height: 400px;
+        transition: max-height 0.5s ease-in;
+        + .open-list-to{
+          .fas{
+            transform: rotate(180deg);
+            transition: transform 0.4s linear;
+          }
+        }
+      }
+    }
+    .open-list-to{
+      .fas{
+        transform: rotate(0deg);
+        transition: transform 0.4s linear;
+      }
+      padding: 8px;
+      text-align: center;
+      color: #7d8490;
+      width: 100%;
+    }
+  }
+}
+
+#scroll-top-button {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  width: 50px;
+  height: 50px;
+  border-radius: 42px;
+  background-image: linear-gradient(to right, #87bae5 0%, #bca7d0 100%);
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &.show{
+    display: flex;
+  }
+}

@@ -1,0 +1,61 @@
+#widget-gallery-list{
+  .item-list-gallery{
+    height: auto;
+    margin-bottom: 30px;
+    display: flex;
+    cursor: pointer;
+    .card{
+      border-radius: 5px;
+      border: none;
+      background-color: #ffffff;
+      width: 100%;
+      .card-body{
+        padding: 20px 0;
+        .card-title{
+          color: #7d8490;
+          font-family: ubuntu-regular;
+          font-size: 17px;
+          font-weight: 500;
+          line-height: 20.93px;
+        }
+      }
+
+      .type-gallery{
+        position: absolute;
+        top: 0;
+        right: 0;
+        //&.video{
+        //  background-image: url("~/../img/video-camera.png");
+        //  background-size: contain;
+        //  background-repeat: no-repeat;
+        //  background-position: center;
+        //  width: 10px;
+        //  height: 10px;
+        //}
+        //&.photo{
+        //  background-image: url("~/../img/photo-camera.png");
+        //  background-size: contain;
+        //  background-repeat: no-repeat;
+        //  background-position: center;
+        //}
+      }
+      .card-img-top{
+        padding: 5px;
+        border: 1px solid #d7d7d7;
+        border-radius: 5px;
+        max-height: 270px;
+        height: 270px;
+        object-fit: cover;
+        object-position: top;
+      }
+    }
+  }
+}
+
+.fancybox-caption__body{
+  color: #c3c6ca;
+  font-family: ubuntu-regular;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: inherit;
+}

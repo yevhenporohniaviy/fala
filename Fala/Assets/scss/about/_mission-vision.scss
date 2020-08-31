@@ -1,0 +1,66 @@
+#widget-mission-vision{
+  background-color: #f5f4f4;
+
+  .vision-mission-box-space{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    @media(max-width: 767px) {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+  .vision-mission-box{
+    border-radius: 15px;
+    text-align: center;
+    &.vision-line{
+      background-color: #ffffff;
+      border-top: 8px solid #87bae5;
+    }
+    &.mission-line{
+      background-color: #ffffff;
+      border-top: 8px solid #bca7d0;
+    }
+    .icon{
+      margin-top: 35px;
+      height: 95px;
+      display: flex;
+      justify-content: center;
+      @media(max-width: 767px) {
+        margin-top: 25px;
+      }
+      img{
+        object-fit: contain;
+      }
+    }
+    .text{
+      display: inline-block;
+      margin-bottom: 35px;
+      padding:0 40px;
+      @media(max-width: 767px) {
+        padding: 0 25px;
+        margin-bottom: 20px;
+
+      }
+      .title{
+        line-height: 20.9px;
+        color: #616a7d;
+        font-family: ubuntu-bold;
+        font-size: 21px;
+        font-weight: 700;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        @media(max-width: 767px) {
+          margin-top: 15px;
+          margin-bottom: 15px;
+        }
+      }
+      .description{
+        color: #7d8490;
+        font-family: ubuntu-regular;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 20.9px;
+      }
+    }
+  }
+}

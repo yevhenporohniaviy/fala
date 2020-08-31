@@ -1,0 +1,36 @@
+#widget-account{
+  .account{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .count {
+      &.diagnosed{
+        color: #87bae5;
+      }
+      &.families{
+        color:#98b5df;
+      }
+      &.volunteer{
+        color: #aaafd8;
+      }
+      &.donat{
+        color:#bca7d0;
+      }
+      font-family: ubuntu-regular;
+      font-size: 42px;
+      font-weight: 700;
+
+    }
+    .text{
+      color: #7d8490;
+      font-family: ubuntu-regular;
+      font-size: 21px;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+}
+
+

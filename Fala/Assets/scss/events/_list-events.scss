@@ -1,0 +1,162 @@
+#widget-list-events{
+  .list-events{
+    .card {
+      border: none;
+      text-decoration: none;
+      padding-bottom: 50px;
+      border-radius: 0;
+      border-bottom: 2px solid #d7d7d7;
+      margin-bottom: 50px;
+      &:last-child{
+        border:none;
+      }
+      .card-img-top {
+        img {
+          height: 100%;
+          max-height: 440px;
+          @media(max-width: 524px){
+            max-height: 250px;
+          }
+          object-fit: cover;
+          width: 100%;
+          padding: 5px;
+          border-radius: 10px;
+        }
+
+        border-radius: 5px;
+        border: 1px solid #d7d7d7;
+        background-color: #ffffff;
+      }
+
+      .card-body {
+        padding: 5px;
+        .number-event{
+          background-color: #f5f4f4;
+          color: #7d8490;
+          font-family: ubuntu-bold;
+          font-size: 21px;
+          font-weight: 700;
+          line-height: 20.92px;
+          padding: 15px 10px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 5px;
+        }
+        .date-event{
+          &.conference {
+            background-color: #bca7d0;
+          }
+
+          &.training {
+            background-color: #89b9e5;
+          }
+          border-radius: 0 0 5px 5px;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          padding: 5px;
+
+          color: #ffffff;
+          font-family: ubuntu-bold;
+          font-size: 13px;
+          font-weight: 700;
+          line-height: 20.92px;
+          text-transform: uppercase;
+          span{
+            color: #ffffff;
+            font-family: ubuntu-regular;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 20.92px;
+          }
+        }
+        .card-title {
+          color: #616a7d;
+          font-family: ubuntu-bold;
+          font-size: 25px;
+          font-weight: 700;
+          line-height: 25.08px;
+        }
+        .card-description {
+          color: #7d8490;
+          font-family: ubuntu-regular;
+          font-size: 17px;
+          font-weight: 400;
+          line-height: 20.92px;
+          @media(max-width:425px){
+              margin-bottom: 30px
+          }
+        }
+        .info {
+          @media(max-width:425px){
+            margin-bottom: 30px
+          }
+          .fas{
+            color: #7d8490;
+            margin-right: 5px;
+          }
+          .event-type {
+            a {
+              font-size: 15px;
+              line-height: 20.92px;
+              font-family: ubuntu-bold;
+              font-weight: 700;
+              margin-right: 20px;
+            }
+            &.conference {
+              a{
+                color: #bca7d0;
+              }
+
+            }
+
+            &.training {
+              a{
+                color: #89b9e5;
+              }
+
+            }
+
+          }
+
+
+          .location {
+            color: #7d8490;
+            font-family: ubuntu-regular;
+            font-weight: 400;
+            line-height: 20.92px;
+            font-size: 15px;
+
+          }
+        }
+        .link{
+          text-align: right;
+          .btn-link{
+            padding: 15px 40px;
+            border-radius: 25px;
+            background-image: linear-gradient(to right, #87bae5 0%, #bca7d0 100%);
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            //text
+
+            color: #fff;
+            font-family: ubuntu-bold;
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 20.93px;
+            text-transform: uppercase;
+            @media(max-width:425px){
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

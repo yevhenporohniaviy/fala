@@ -1,0 +1,197 @@
+#widget-diagnosed {
+   .title {
+     color: #616a7d;
+     font-family: ubuntu-bold;
+     font-size: 33px;
+     font-weight: 700;
+     line-height: 20.93px;
+     margin:60px 0 30px 0;
+     @media(max-width: 768px){
+       font-size: 24px;
+       line-height: 45px;
+     }
+   }
+
+   .description {
+     color: #7d8490;
+     font-family: ubuntu-regular;
+     font-size: 17px;
+     font-weight: 400;
+     line-height: 25.08px;
+     margin-bottom: 40px;
+     .black{
+       font-family: ubuntu-bold;
+       font-weight: 700;
+     }
+     .pink{
+       color: #bca7d0;
+       font-family: ubuntu-regular;
+       font-weight: 400;
+     }
+   }
+
+   .sliderDiagnosed {
+     .slick-track {
+       display: flex;
+       .slick-slide {
+         display: flex;
+         height: auto;
+         justify-content: center;
+         &:hover,
+         &:active,
+         &:focus {
+           outline: none;
+         }
+
+         .card {
+           margin: 10px;
+           .card-img-top {
+             height: 270px;
+             max-height: 270px;
+             object-fit: cover;
+             width: 100%;
+             padding: 5px;
+             border-radius: 9px;
+           }
+
+           .card-body {
+             padding: 10px;
+             height: 170px;
+             .card-title {
+               color: #7d8490;
+               font-family: ubuntu-regular;
+               font-size: 16px;
+               font-weight: 400;
+               line-height: 20.92px;
+               .black{
+                 font-family: ubuntu-bold;
+                 font-weight: 700;
+               }
+             }
+           }
+         }
+       }
+     }
+   }
+
+   .slick-arrow {
+     position: absolute;
+     top: 50%;
+     width: 100%;
+     &.prev,
+     &.next {
+       -webkit-transform: translate(0, -50%);
+       -ms-transform: translate(0, -50%);
+       transform: translate(0, -50%);
+       cursor: pointer;
+       border: none;
+       outline: none;
+       width: 44px;
+       height: 44px;
+       border-radius: 5px;
+       background-image: linear-gradient(to right, #87bae5 0%, #bca7d0 100%);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       color: #fefefe;
+     }
+
+     &.next {
+       right: -15px;
+       @media(max-width: 425px){
+         right: -8px;
+       }
+     }
+
+     &.prev {
+       left: -15px;
+       @media(max-width: 425px){
+         left: -8px;
+       }
+     }
+
+   }
+
+
+  .sliderResourcesStudies {
+    .slick-track {
+      display: flex;
+      .slick-slide {
+        display: flex;
+        height: auto;
+        justify-content: center;
+        &:hover,
+        &:active,
+        &:focus {
+          outline: none;
+        }
+
+        .card {
+          margin: 10px;
+          .card-img-top {
+            height: 270px;
+            max-height: 270px;
+            object-fit: cover;
+            width: 100%;
+            padding: 5px;
+            border-radius: 9px;
+          }
+
+          .card-body {
+            padding: 10px;
+            height: 165px;
+            .card-title {
+              color: #7d8490;
+              font-family: ubuntu-regular;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 20.92px;
+              .black{
+                font-family: ubuntu-bold;
+                font-weight: 700;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .slick-arrow {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+
+    &.prev-studies,
+    &.next-studies {
+      -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+      transform: translate(0, -50%);
+      cursor: pointer;
+      border: none;
+      outline: none;
+      width: 44px;
+      height: 44px;
+      border-radius: 5px;
+      background-image: linear-gradient(to right, #87bae5 0%, #bca7d0 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fefefe;
+    }
+
+    &.next-studies {
+      right: -15px;
+      @media(max-width: 425px){
+        right: -8px;
+      }
+    }
+
+    &.prev-studies {
+      left: -15px;
+      @media(max-width: 425px){
+        left: -8px;
+      }
+    }
+
+  }
+ }

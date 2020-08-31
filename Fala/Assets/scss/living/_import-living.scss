@@ -1,0 +1,17 @@
+.widget-important-section{
+  background-image: linear-gradient(85deg, #bca7d0 0%, #87bae5 100%);
+  padding:35px 0;
+  .text{
+    font-family: ubuntu-bold;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29.25px;
+    color: #ffffff;
+  }
+  .description{
+    color: #ffffff;
+    font-family: ubuntu-regular;
+    font-size: 17px;
+    font-weight: 400;
+  }
+}

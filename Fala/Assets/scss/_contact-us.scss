@@ -1,0 +1,183 @@
+#widget-contact-form {
+  padding: 60px 0;
+
+  #contactForm {
+    .submitButton {
+      border: none;
+      border-radius: 25px;
+      background-image: linear-gradient(to right, #87bae5 0%, #bca7d0 100%);
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 14px;
+      // text
+
+      color: #ffffff;
+      font-family: ubuntu-bold;
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 20.9px;
+      text-transform: uppercase;
+
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+    }
+
+    .form-field {
+      height: 49px;
+      margin-bottom: 5px;
+      border-radius: 25px;
+      border: 1px solid #bbbfc5;
+      background-color: #ffffff;
+      //text
+      color: #7d8490;
+      font-family: ubuntu-regular;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 20.9px;
+      padding: 0 15px;
+
+      &::-webkit-input-placeholder,
+      &::-moz-placeholder,
+      &:-ms-input-placeholder,
+      &:-moz-placeholder {
+        color: #7d8490;
+        font-family: ubuntu-regular;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20.9px;
+      }
+    }
+
+    .form-field-message {
+      border-radius: 5px;
+      border: 1px solid #bbbfc5;
+      background-color: #ffffff;
+
+      &::-webkit-input-placeholder,
+      &::-moz-placeholder,
+      &:-ms-input-placeholder,
+      &:-moz-placeholder {
+        color: #7d8490;
+        font-family: ubuntu-regular;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20.9px;
+      }
+    }
+
+    .error-help-block{
+      color: #7d8490;
+      font-family: ubuntu-regular;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 25.04px;
+      margin-bottom: 40px;
+    }
+  }
+
+  .info-description {
+
+    .text {
+      color: #7d8490;
+      font-family: ubuntu-regular;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 25.04px;
+      margin-bottom: 40px;
+    }
+
+    .contact-blocks {
+      .vision-mission-box {
+        border-radius: 15px;
+        text-align: center;
+        width: 100%;
+
+        &.first-line {
+          background-color: #f5f4f4;
+          border-top: 5px solid #87bae5;
+        }
+
+        &.middle-line {
+          background-color: #f5f4f4;
+          border-top: 5px solid #a4b1da;
+        }
+
+        &.last-line {
+          background-color: #f5f4f4;
+          border-top: 5px solid #bca7d0;
+        }
+
+        .icon {
+          height: 95px;
+          display: flex;
+          justify-content: center;
+          @media(max-width: 767px) {
+          }
+
+          img {
+            object-fit: contain;
+          }
+        }
+
+        .text {
+          display: inline-block;
+          margin-bottom: 35px;
+          padding: 0 5px;
+          @media(max-width: 767px) {
+            padding: 0 5px;
+            margin-bottom: 20px;
+
+          }
+
+          .title {
+            color: #7d8490;
+            font-family: ubuntu-regular;
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 13.75px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+
+          }
+
+          .link {
+            color: #87bae5;
+            font-family: ubuntu-italic;
+            font-size: 12px;
+            font-style: italic;
+            line-height: 20.88px;
+            text-decoration: underline;
+
+          }
+        }
+      }
+    }
+
+    .social-block {
+      .social-link {
+        text-decoration: none;
+        margin: 5px;
+        width: 45px;
+        height: 45px;
+        // icon
+        color: #ffffff;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 29.78px;
+        letter-spacing: -0.88px;
+
+        background-color: #bba7d0;
+        border-radius: 50%;
+
+        i {
+          padding: 10px;
+        }
+      }
+    }
+  }
+
+}

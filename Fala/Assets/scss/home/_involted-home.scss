@@ -1,0 +1,59 @@
+#widget-involved{
+  background-color: #f5f4f4;
+  .title{
+    color: #616a7d;
+    font-family: ubuntu-bold;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 20.93px;
+    margin: 60px 0 35px 0;
+    @media(max-width: 768px) {
+      font-size: 24px;
+    }
+  }
+  .involved-content{
+    .involted{
+      margin-bottom: 30px;
+      padding: 45px;
+      width: 100%;
+      border-radius: 10px;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      @media(max-width: 768px){
+        padding: 18px;
+      }
+      .title-involted{
+        color: #7d8490;
+        font-family: ubuntu-bold;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 20.92px;
+      }
+      .description-involted{
+        color: #7d8490;
+        font-family: ubuntu-regular;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 25.08px;
+      }
+      .btn-link{
+        padding: 15px 40px;
+        border-radius: 25px;
+        background-image: linear-gradient(to right, #87bae5 0%, #bca7d0 100%);
+        text-decoration: none;
+        display: inline-block;
+        //text
+
+        color: #fff;
+        font-family: ubuntu-bold;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 20.93px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

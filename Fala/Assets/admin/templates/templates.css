@@ -1,0 +1,86 @@
+.featured-card {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 4px solid #f6f4f3;
+}
+
+.featured-card .block-img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    background: -moz-linear-gradient(359deg, rgba(220, 51, 51, 1) 0%, rgba(225, 94, 34, 1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(220, 51, 51, 1)), color-stop(100%, rgba(225, 94, 34, 1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(359deg, rgba(220, 51, 51, 1) 0%, rgba(225, 94, 34, 1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(359deg, rgba(220, 51, 51, 1) 0%, rgba(225, 94, 34, 1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(359deg, rgba(220, 51, 51, 1) 0%, rgba(225, 94, 34, 1) 100%); /* ie10+ */
+    background: linear-gradient(91deg, rgba(220, 51, 51, 1) 0%, rgba(225, 94, 34, 1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dc3333', endColorstr='#e15e22', GradientType=1); /* ie6-9 */
+    -webkit-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.featured-card .block-img .featured-image {
+    max-width: 100%;
+    height: 65px;
+}
+
+
+.block-text .title {
+    margin-bottom: 10px;
+    font: 25px 'opensans-bold';
+    color: #db3635;
+}
+
+.block-text .description {
+    font: 18px 'opensans';
+    color: #191919;
+}
+
+.shareholders .shareholders-title {
+    margin-bottom: 25px;
+    color: #191919;
+    font: 25px 'opensans-bold';
+    text-transform: uppercase;
+}
+
+.shareholders .card-deck .card {
+    margin-bottom: 30px;
+    padding: 0;
+    background-color: #f6f4f3;
+    text-align: center;
+    border: none;
+}
+
+.shareholders .card-deck .card .item-name {
+    margin-bottom: 5px;
+    color: #191919;
+    font: 18px 'opensans-bold';
+}
+
+.shareholders .card-deck .card .item-description {
+    margin-bottom: 15px;
+    color: #e15e22;
+    font: 15px 'opensans';
+}
+
+.shareholders .card-deck .card .item-price {
+    color: #e15e22;
+    font: 22px 'opensans-bold';
+}
+
+.apply-loan-now {
+    margin-bottom: 15px;
+}
+
+.apply-loan-now .orange-button {
+    height: 90px;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    font: 25px 'opensans-bold';
+}

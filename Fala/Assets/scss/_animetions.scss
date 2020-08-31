@@ -1,0 +1,26 @@
+.animatePulse{
+  &.plus-delay{
+    &:hover{
+      -webkit-animation: pulse 2s infinite;
+      animation: pulse 2s infinite;
+    }
+  }
+  &:hover{
+    -webkit-animation: pulse 1s infinite;
+    animation: pulse 1s infinite;
+  }
+}
+
+.animateHeartBeat{
+  &.plus-delay{
+    &:hover{
+      -webkit-animation: heartBeat 2s infinite;
+      animation: heartBeat 2s infinite;
+    }
+  }
+  &:hover{
+    -webkit-animation: heartBeat 1s infinite;
+    animation: heartBeat 1s infinite;
+  }
+
+}

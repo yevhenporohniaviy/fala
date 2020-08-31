@@ -1,0 +1,27 @@
+#widget-our-story-about{
+  margin-bottom: 80px;
+  @media(max-width: 767px) {
+    margin-bottom: 40px;
+  }
+    .title{
+      margin-top: 70px;
+      margin-bottom:40px;
+      color: #7d8490;
+      font-family: ubuntu-bold;
+      font-size: 33px;
+      font-weight: 700;
+      line-height: 20.85px;
+      @media(max-width: 767px) {
+        margin-top: 35px;
+        margin-bottom: 20px;
+      }
+    }
+  .description {
+    color: #7d8490;
+    font-family: ubuntu-regular;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.08px;
+  }
+  .img{}
+}

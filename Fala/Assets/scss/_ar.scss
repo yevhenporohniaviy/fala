@@ -1,0 +1,503 @@
+.rtl {
+
+  .revers-block {
+    flex-direction: row-reverse;
+  }
+  .align-block {
+    align-items: flex-end !important;
+  }
+  .text-transform{
+    direction: rtl;
+    text-align: right;
+  }
+
+  #header {
+    .navbar {
+      .navbar-content {
+        flex-direction: row-reverse;
+
+        .navbar-nav {
+          flex-direction: row-reverse;
+          @media(max-width: 992px) {
+            flex-direction: column;
+          }
+
+          .nav-item {
+            i{
+              right: auto;
+              left: 8px;
+            }
+            .nav-link {
+              @media(max-width: 992px) {
+                direction: rtl;
+              }
+            }
+
+            .dropdown-menu {
+              width: 237px;
+              right: 0;
+              left: auto;
+              text-align: right;
+              direction: rtl;
+              @media(max-width: 992px){
+                width:auto;
+                border: none;
+              }
+            }
+
+          }
+        }
+
+        .language {
+          margin-left: 0px;
+          margin-right: 10px;
+          @media(max-width: 992px) {
+            flex-direction: row-reverse;
+          }
+        }
+      }
+    }
+  }
+  #nav-crumbs{
+    .crumb{
+
+      .page-crumbs{
+        flex-direction: row-reverse;
+        span  {
+          &:last-child{
+            &:before{
+              display: none;
+            }
+          }
+          &:after{
+            display: none;
+          }
+          &:before{
+
+            content: "\f053";
+            font-family: 'Font Awesome 5 Free';
+            margin: 0 15px;
+            font-weight: 900;
+          }
+        }
+      }
+    }
+  }
+  #widget-scroll-to {
+
+    .scroll-to-box {
+      flex-direction: row-reverse;
+      @media(max-width: 767px){
+        flex-direction: column;
+      }
+      .list-to {
+        ul {
+          flex-direction: row-reverse;
+          @media(max-width: 767px){
+            flex-direction: column;
+          }
+        }
+      }
+    }
+  }
+  #scroll-top-button {
+    left: 20px;
+    right: 0;
+  }
+
+  #mainCarousel{
+    direction: rtl;
+    #mainCarousel {
+      width: 100%;
+
+      .carousel-item {
+        .carousel-caption {
+          @media(max-width: 768px) {
+            width: 100%;
+            left: 0;
+            right: 0;
+          }
+        }
+      }
+    }
+  }
+  #widget-our-story-home{
+    .our-story{
+      direction: rtl;
+    }
+  }
+  #widget-what-fa{
+    .tabs-info{
+      .title{
+        direction: rtl;
+      }
+      .description{
+        direction: rtl;
+      }
+      .tabs{
+        direction: rtl;
+      }
+    }
+  }
+  #widget-diagnosed {
+    .title {
+      direction: rtl;
+    }
+    .description {
+        direction: rtl;
+      }
+    .sliderDiagnosed,
+    .sliderResourcesStudies {
+      .slick-track {
+        .slick-slide {
+          .card {
+            .card-body {
+              text-align: right;
+              direction: rtl;
+              .card-title {
+                direction: rtl;
+              }
+            }
+          }
+        }
+      }
+    }
+
+
+  }
+  #widget-treatments{
+    .title{
+      direction: rtl;
+    }
+    .description{
+      direction: rtl;
+    }
+    .coordinate{
+      .emblem-title{
+        direction: rtl;
+      }
+    }
+  }
+  #widget-events{
+  .sliderEvents{
+    .card-body{
+      .card-title{
+        direction: rtl;
+        text-align: right;
+      }
+      .card-description{
+        direction: rtl;
+        text-align: right;
+      }
+    }
+  }
+}
+  #widget-subscription {
+    .subscribe-form {
+      input {
+        direction: rtl;
+        text-align: right;
+      }
+    }
+  }
+  #widget-our-story-about{
+    .title{
+     direction: rtl;
+    }
+    .description {
+      direction: rtl;
+    }
+
+  }
+
+  #widget-mission-vision{
+    .vision-mission-box{
+      direction: rtl;
+    }
+  }
+  #widget-family{
+    .title{
+      direction: rtl;
+    }
+    .family-slider{
+      .card-body{
+        .card-name{
+          direction:rtl
+        }
+      }
+    }
+  }
+  #widget-partners{
+  .title{
+    direction: rtl;
+  }
+  .partners-content{
+    .partner{
+      .partners-title{
+        direction: rtl;
+      }
+      .partners-type{
+        direction: rtl;
+      }
+    }
+  }
+}
+
+  #carouselWhatFa{
+    .carousel-item{
+      .carousel-caption{
+        direction: rtl;
+      }
+    }
+  }
+  #widget-in-lebanon{
+    .caption{
+      direction:rtl
+    }
+  }
+  #widget-associations{
+    .associations-title{
+      direction:rtl
+    }
+    .list-associations{
+      li{
+        direction: rtl;
+        text-align: right;
+      }
+    }
+  }
+  #widget-contact-living{
+    .text-section{
+      direction:rtl
+    }
+    .vision-mission-box{
+      direction:rtl
+    }
+  }
+  #simple-gray{
+    .text-section{
+      direction:rtl
+    }
+    .title-section{
+      direction: rtl;
+      font-weight: 700;
+    }
+  }
+
+  #widget-different-therapies{
+    background-color: #f5f4f4;
+    .title-section{
+      color: #616a7d;
+      font-family: ubuntu-bold;
+      font-size: 33px;
+      font-weight: 700;
+      line-height: 37.5px;
+      margin: 50px auto;
+    }
+    #different-therapies{
+
+      .therapie-desction{
+        &:nth-child(odd){
+          text-align: left;
+          .section-title{
+            flex-direction: row;
+          }
+        }
+        &:nth-child(even){
+          text-align: right;
+          .section-title{
+            flex-direction: row-reverse;
+          }
+        }
+      }
+
+    }
+  }
+  #widget-gallery-list{
+    .item-list-gallery{
+      .card{
+        .card-body{
+          direction: rtl;
+          text-align: right;
+        }
+      }
+      .type-gallery{
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: inherit;
+        }
+
+      }
+    }
+
+  .modalFamily{
+    .modal-content{
+      .personal-info{
+        .name{
+          text-align: right;
+          direction: rtl;
+        }
+        .info{
+          direction: rtl;
+          text-align: right;
+
+        }
+      }
+
+      .close{
+        position: absolute;
+        top: -20px;
+        left: -20px;
+        right: auto;
+        opacity: 1;
+        z-index: 1;
+        &:focus,
+        &:active{
+          outline: none;
+          box-shadow: none;
+        }
+      }
+    }
+
+  }
+
+
+
+
+  #footer {
+    background-color: #616a7d;
+
+    .sitemap {
+     text-align: right;
+      direction: rtl;
+
+    }
+    .contact-home-info{
+      direction: rtl;
+      text-align: right;
+      .info{
+        a{
+          text-decoration: none;
+          color: #ffffff;
+          font-family: ubuntu-regular;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 13.75px;
+
+        }
+        color: #ffffff;
+        font-family: ubuntu-regular;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 13.75px;
+        margin-bottom: 30px;
+        .fas{
+          margin-right:0;
+          margin-left:15px;
+          color: #87bae5;
+          font-size: 15px;
+          line-height: 20.87px;
+        }
+      }
+    }
+    .sitemap-list {
+      .list {
+        padding-right: 15px;
+        padding-left: 0;
+        list-style: none;
+        direction: rtl;
+        .title-section {
+          text-align: right;
+          a {
+            text-decoration: none;
+            color: #ffffff;
+            font-family: ubuntu-bold;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 15.83px;
+            &:hover{
+              color: #bca7d0;
+            }
+          }
+
+          &:before {
+            content: "";
+            border-color: transparent #87bae5;
+            border-style: solid;
+            border-width: 0.35em 0 0.35em 0.45em;
+            display: block;
+            height: 0;
+            width: 0;
+            right: -1em;
+            transform: rotate(180deg);
+            top: 0.8em;
+            position: relative;
+          }
+        }
+        .child {
+          padding-left: 0;
+          padding-right: 10px;
+          list-style: none;
+          direction: rtl;
+          li {
+            text-align: right;
+            font-size: 10px;
+            line-height: 12.83px;
+
+            a {
+              text-decoration: none;
+              color: #ffffff;
+              font-family: ubuntu-regular;
+              font-size: 10px;
+              font-weight: 700;
+              line-height: 12.83px;
+              &:hover{
+                color: #bca7d0;
+              }
+            }
+
+            &:before {
+              content: "";
+              border-color: transparent #ffffff;
+              border-style: solid;
+              border-width: 0.35em 0 0.35em 0.45em;
+              display: block;
+              height: 0;
+              width: 0;
+              transform: rotate(180deg);
+              right: -1em;
+              top: 1em;
+              position: relative;
+            }
+          }
+        }
+      }
+    }
+
+  }
+  #widget-diagnosed-page {
+    .text-section{
+      direction: rtl;
+    }
+    .sliderDiagnosedPage {
+      .slick-track {
+        .slick-slide {
+          .slide {
+            .card {
+              .card-body {
+                text-align: right;
+                direction: rtl;
+                .card-title {
+                  direction: rtl;
+                }
+              }
+            }
+          }
+
+        }
+      }
+    }
+  }
+
+}

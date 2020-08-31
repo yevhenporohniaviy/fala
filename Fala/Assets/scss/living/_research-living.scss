@@ -1,0 +1,22 @@
+#widget-research{
+  background-color: #f5f4f4;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  @media(max-width: 767px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .description {
+    color: #7d8490;
+    font-family: ubuntu-regular;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.08px;
+    a{
+      color: #87bae5;
+      font-family: ubuntu-italic;
+      text-decoration: underline;
+    }
+  }
+  .img{}
+}

@@ -1,0 +1,19 @@
+{
+    "name": "kobe/fala-theme",
+    "description": "Fala theme for Kobe platform",
+    "type": "kobe-theme",
+    "license": "MIT",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Maxim Malyk",
+            "email": "maxim.malyk@cyberchisel.com"
+        }
+    ],
+    "require" : {
+        "kobe/core-module" : "v0.*",
+        "kobe/kobe-admin-theme" : "v0.*",
+        "kobe/dynamic-pages-module": "v0.*"
+    },
+    "minimum-stability": "stable"
+}

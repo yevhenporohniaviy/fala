@@ -1,0 +1,59 @@
+// Variables
+@import 'variables';
+
+@import 'animetions';
+@import 'expansion_inheritance';
+// Events
+@import 'events/list-events';
+@import 'events/filters-events';
+@import 'events/detail-event';
+@import 'events/pagination';
+
+
+// living fala
+@import "living/diagnosed-living";
+@import "living/import-living";
+@import "living/research-living";
+@import "living/tabs-living";
+@import "living/carousel-living";
+@import "living/different_therapies-living";
+@import "living/resources_studies-living";
+@import "living/associations-living";
+@import "living/contact-living";
+@import "living/simple-gray";
+
+// what fala
+@import "what-fa/carousel-what_fa";
+@import "what-fa/symptom-what_fa";
+@import "what-fa/causes-what_fa";
+@import "what-fa/in_lebanon-what-fa";
+// gallery
+@import "gallery/filters-gallery";
+@import "gallery/list-gallery";
+// about
+@import "about/story-about";
+@import "about/mission-vision";
+@import "about/family-about";
+@import "about/partners_about";
+// home
+@import "home/story-home";
+@import "home/carousel-home";
+@import "home/account-home";
+@import "home/tabs-home";
+@import "home/diagnosed-home";
+@import "home/treatments-home";
+@import "home/involted-home";
+@import "home/events-home";
+@import "home/subscription-home";
+
+
+@import "faq";
+@import "contact-us";
+
+@import "menu";
+@import "burger-menu";
+@import "navbar-crumbs";
+@import "scroll-to";
+@import "footer";
+
+@import "ar";

@@ -1,0 +1,4 @@
+.idea/*
+/node_modules/
+/Assets/scss/.sass-cache/
+package-lock.json

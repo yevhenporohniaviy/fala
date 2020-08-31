@@ -1,0 +1,87 @@
+{
+  "name": "fala",
+  "description": "Theme for Fala project of Kobe platform",
+  "previewUrl": "https://images.unsplash.com/photo-1494249465471-5655b7878482?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=191559dc1cae3f8967d568dfd8a77093&auto=format&fit=crop&w=1350&q=80",
+  "compile": true,
+  "seeders" : [
+    "Themes\\Fala\\Database\\Seeders\\LandingPagesSeeder",
+    "Themes\\Fala\\Database\\Seeders\\MenuSeeder"
+  ],
+  "widgets": [
+      "simple-text",
+      "treatments",
+      "subscribes",
+      "team-members",
+      "partners",
+      "summary-block",
+      "events-list",
+      "diagnosed-slider",
+      "what-is-fa",
+      "slider",
+      "features",
+      "buttons",
+      "map",
+      "sub-menu",
+      "simple-text-gray",
+      "studie-slider"
+  ],
+  "styles": {
+    "tinyMCE": {
+      "content_css": "themes/fala/templates/templates.css",
+      "templates": [
+
+      ]
+    },
+    "logo": {
+      "type": "file",
+      "name": "second-color",
+      "value": "/themes/fala/img/logo.png",
+      "label": "label for second color"
+    },
+    "$bg-color": {
+      "type": "color",
+      "name": "second-color",
+      "value": "#ff4c00",
+      "label": "label for second color"
+    },
+    "$content-color": {
+      "type": "color",
+      "name": "first-color",
+      "value": "#ffffff",
+      "label": "label for first color"
+    },
+    "$footer-color": {
+      "type": "color",
+      "name": "third-color",
+      "value": "#77777a",
+      "label": "label for third color"
+    }
+  },
+  "currentStyles": {
+    "logo": {
+      "type": "file",
+      "name": "second-color",
+      "value": "/themes/fala/img/logo.png",
+      "label": "label for second color"
+    },
+    "$bg-color": {
+      "type": "color",
+      "name": "second-color",
+      "value": "#49a5d0",
+      "label": "label for second color"
+    },
+    "$content-color": {
+      "type": "color",
+      "name": "first-color",
+      "value": "#ffffff",
+      "label": "label for first color"
+    },
+    "$footer-color": {
+      "type": "color",
+      "name": "third-color",
+      "value": "#868384",
+      "label": "label for third color"
+    }
+  },
+  "type" : "frontend"
+}

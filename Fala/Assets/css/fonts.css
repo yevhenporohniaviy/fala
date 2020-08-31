@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "ubuntu-bold";
+    src: url("../fonts/Ubuntu/Ubuntu-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ubuntu-bold-italic";
+    src: url("../fonts/Ubuntu/Ubuntu-BoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ubuntu-italic";
+    src: url("../fonts/Ubuntu/Ubuntu-Italic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ubuntu-regular";
+    src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/*Arabic fonts*/
+@font-face {
+    font-family: "cairo-regular";
+    src: url("../fonts/Cairo/Cairo-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "cairo-bold";
+    src: url("../fonts/Cairo/Cairo-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

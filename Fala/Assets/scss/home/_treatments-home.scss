@@ -1,0 +1,56 @@
+#widget-treatments {
+  background-image: linear-gradient(to right, #87bae5 0%, #bca7d0 100%);
+
+  .title {
+    color: #ffffff;
+    font-family: ubuntu-bold;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 20.93px;
+    margin: 60px 0 35px 0;
+    @media(max-width: 768px) {
+      font-size: 24px;
+    }
+  }
+
+  .description {
+    margin-bottom: 45px;
+    color: #ffffff;
+    font-family: ubuntu-regular;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.08px;
+  }
+
+  .coordinate-content {
+    margin-bottom: 40px;
+
+    .coordinate {
+      text-decoration: none;
+      margin-bottom: 30px;
+      padding: 55px;
+      width: 100%;
+      border-radius: 10px;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      @media(max-width: 768px){
+        padding: 11px;
+        img{
+            width:50%;
+        }
+      }
+      .emblem-title{
+        text-align: center;
+        color: #7d8490;
+        font-family: ubuntu-bold;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 20.92px;
+      }
+    }
+  }
+
+}
